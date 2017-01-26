@@ -11,17 +11,17 @@ export default class PlantImage extends Component {
       );
     }
     else {
-      var height = 200;
+      var height = 300;
       if (this.props.amountWater < 30) {
-        height = 200 + 3 * this.props.amountWater;
+        height = 300 + 3 * this.props.amountWater;
       }
       else {
-        height = 425;
+        height = 525;
       }
 
       return (
         <Image
-          source={{uri: 'https://www.silksareforever.com/images/thumbnails/175/175/detailed/21/GTD445-BT.jpg'}}
+          source={{uri: 'https://farm6.staticflickr.com/5022/5590591853_074f1c2c3b_m.jpg'}}
           style={{width: 200, height: height}}
         />
       );
